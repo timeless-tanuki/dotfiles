@@ -1,0 +1,21 @@
+{
+  "name": "dotfiles-development",
+  "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu-22.04",
+  "containerEnv": {
+    "TZ": "Asia/Tokyo"
+  },
+  "runArgs": [
+    "--init"
+  ],
+  "features": {},
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "editor.fontFamily": "'0xProto Nerd Font', monospace",
+        "editor.formatOnSave": true,
+        "files.insertFinalNewline": true
+      },
+      "extensions": []
+    }
+  }
+}
